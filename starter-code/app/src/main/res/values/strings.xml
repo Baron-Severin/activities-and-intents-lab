@@ -6,4 +6,13 @@
         vacation place is one where you can ride <b>%5$s</b> or play <b>%6$s</b>.
     ]]>
     </string>
+
+    <!--intent passing keys-->
+    <string name="adjective1">adj1</string>
+    <string name="adjective2">adj2</string>
+    <string name="noun1">noun1</string>
+    <string name="noun2">noun1</string>
+    <string name="animal">animal</string>
+    <string name="game">game</string>
+
 </resources>

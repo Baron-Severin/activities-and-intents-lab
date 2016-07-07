@@ -11,6 +11,62 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
+            <EditText
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/editAdjective1"
+                android:hint="Adjective"
+                android:layout_marginTop="20dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/mybutton"/>
+
+            <EditText
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/editAdjective2"
+                android:hint="Adjective"
+                android:background="@drawable/myedittext"
+                android:layout_margin="5dp" />
+
+            <EditText
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/editNoun1"
+                android:hint="Noun"
+                android:background="@drawable/myedittext"
+                android:layout_margin="5dp" />
+
+            <EditText
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/editNoun2"
+                android:hint="Noun"
+                android:background="@drawable/myedittext"
+                android:layout_margin="5dp" />
+
+            <EditText
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/editAnimal"
+                android:hint="Animal"
+                android:background="@drawable/myedittext"
+                android:layout_margin="5dp" />
+
+            <EditText
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/editGame"
+                android:hint="Game"
+                android:background="@drawable/myedittext"
+                android:layout_margin="5dp" />
+
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="Mad Lib It"
+                android:id="@+id/setIntentResult"
+                android:background="@drawable/mybutton"
+                android:layout_margin="5dp" />
         </LinearLayout>
     </ScrollView>
 </FrameLayout>
